@@ -57,4 +57,31 @@
     padding: 0 15px;
 }
 
-.banner-text{display:block !important;}
+.banner-container {
+    width: 100%;
+    position: relative;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+}
+
+.banner-text {
+    display: block;
+    position: absolute;
+    top: 50%;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 450px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.banner-text h1 {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 55px;
+    text-align: center;
+}

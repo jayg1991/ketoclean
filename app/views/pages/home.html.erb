@@ -1,8 +1,12 @@
-<style>
-    .banner {display:block;}
-</style>
+<div class="banner-container">
+    <%= image_tag 'keto-banner.jpg', :class => "banner" %>
+    <div class="banner-text">
+        <h1>Ketogenic Diet</h1>
+        <%= link_to "Learn More", root_path, class: "sign-up" %>
+    </div>
+</div>
 
-<div class="homepage-main-container">
+<div class="container homepage-main-container">
     <div class="widget">
         <div class="widget-icon">
             <%= image_tag 'icon-workout.jpg', :class => "" %>
