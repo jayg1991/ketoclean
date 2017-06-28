@@ -9,6 +9,22 @@
     padding: 15px;
 }
 
+.widget h1 {
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 0 10px 0px;
+    font-size: 36px;
+}
+
+.widget h3 {
+    color: #fff;
+    margin: 0;
+    padding: 0 10px 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .widget-pic {
     display: block;
     width: 100%;
@@ -23,3 +39,20 @@
 }
 
 .widget .sign-up {margin: 10px;}
+
+.widget-icon {
+    float: left;
+    width: 20%;
+}
+
+.widget-icon img {
+    width: 100%;
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.widget-title {
+    width: 80%;
+    float: left;
+    padding: 0 15px;
+}
