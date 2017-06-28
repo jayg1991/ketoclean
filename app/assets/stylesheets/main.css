@@ -26,6 +26,7 @@ body {
 }
 
 .banner-text {
+    display: none;
     position: absolute;
     top: 50%;
     padding: 15px;
