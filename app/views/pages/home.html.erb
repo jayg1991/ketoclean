@@ -2,4 +2,26 @@
     .banner {display:block;}
 </style>
 
-<h1>Home Page</h1>
+<div class="homepage-main-container">
+    <div class="widget">
+        <%= image_tag 'widget-workout.jpg', :class => "widget-pic" %>
+        <p>
+        Learn about how the workouts needed to succeed witht he Ketogenic diet. These workouts will be geared tohelp you reach your specific goals. They will also keep your safety in mind because of your new food intake.
+        </p>
+        <%= link_to "Learn More", root_path, class: "sign-up" %>
+    </div>
+    <div class="widget">
+        <%= image_tag 'widget-food.jpg', :class => "widget-pic" %>
+        <p>
+        Food is the most important part of any workout plan. Learn more about what foods you can and can’t eat. You can pick the foods you like and make your own food list so you will have everything you need to succeed.
+        </p>
+        <%= link_to "Learn More", root_path, class: "sign-up" %>
+    </div>
+    <div class="widget">
+        <%= image_tag 'widget-account.jpg', :class => "widget-pic" %>
+        <p>
+        Click here to login to your account. When on your account page you can create your food list, create your workout plan and edit your profile. Everything is centeralized to make it easy to reach your goals.
+        </p>
+        <%= link_to "Learn More", root_path, class: "sign-up" %>
+    </div>
+</div>

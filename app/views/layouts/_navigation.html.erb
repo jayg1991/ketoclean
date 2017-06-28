@@ -1,0 +1,23 @@
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <%= image_tag 'keto-logo.jpg', :class => "" %>
+        </div>
+        <div class="nav">
+            <div class="keto-logo">
+                <h1>KetoClean</h1>
+            </div>
+            <div class="nav-links-container">
+                <ul>
+                    <li><%= link_to "Home", root_path, class: "nav-links" %></li>
+                    <li><%= link_to "About", root_path, class: "nav-links" %></li>
+                    <li><%= link_to "Foods", root_path, class: "nav-links" %></li>
+                    <li><%= link_to "Workouts", root_path, class: "nav-links" %></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sign-up-container">
+            <%= link_to "Sign Up", root_path, class: "sign-up" %>
+        </div>
+    </div>
+</div>
