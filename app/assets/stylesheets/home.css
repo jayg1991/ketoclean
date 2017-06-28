@@ -57,4 +57,4 @@
     padding: 0 15px;
 }
 
-.banner-text{display:block;}
+.banner-text{display:block !important;}
