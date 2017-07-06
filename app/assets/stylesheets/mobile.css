@@ -20,6 +20,6 @@
     .nav-links {font-size: 15px;}
     .sign-up-container .sign-up {font-size: 14px;}
     .nav {width: 80% !important;}
-    .sign-up-container {width: 100% !important; padding: 15px 0 0 20%;}
+    .sign-up-container {width: 100% !important; padding: 15px 0 0 0;}
     .header {min-height: 170px !important;}
 }
