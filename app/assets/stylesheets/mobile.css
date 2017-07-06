@@ -15,7 +15,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .banner-text h1 {font-size: 45px; margin: 10px 0;}
+    .banner-text h1 {font-size: 36px; margin: 0 0 10px;}
     .keto-logo h1 {font-size: 25px;}
     .nav-links {font-size: 15px;}
     .sign-up-container .sign-up {font-size: 14px;}
