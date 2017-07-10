@@ -4,6 +4,11 @@
 
 <h1>Keto Approved Foods</h1>
 
+<%= form_tag(foods_path, method: :get) do %>
+  <%= text_field_tag :title, params[:title] %>
+  <%= submit_tag 'Search', name: nil %>
+<% end %>
+
 <table>
   <thead>
     <tr>
@@ -18,9 +23,6 @@
       <tr>
         <td><%= food.title %></td>
         <td><%= food.description %></td>
-        <td><%= link_to 'Show', food %></td>
-        <td><%= link_to 'Edit', edit_food_path(food) %></td>
-        <td><%= link_to 'Destroy', food, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
